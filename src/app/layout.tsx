@@ -5,7 +5,6 @@ import { AppHeader } from '@/components/layout/app-header';
 import { BottomNav } from '@/components/layout/bottom-nav';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const APP_NAME = "Habit Hacker";
 const APP_DESCRIPTION = "PWA to hack your habits, with Islamic and cultural content.";
@@ -52,7 +51,6 @@ export default function RootLayout({
           </div>
           <Toaster />
         </AppProviders>
-        <SpeedInsights/>
       </body>
     </html>
   );
