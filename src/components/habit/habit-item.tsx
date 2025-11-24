@@ -41,6 +41,11 @@ export function HabitItem({ habit }: HabitItemProps) {
     return Math.floor(seconds) + " seconds ago";
   }
 
+  const getFrequencyText = () => {
+    const unitKey = `time_unit_${habit.timeUnit}`;
+    return `${habit.frequency} ${t(unitKey)}`;
+  }
+
   return (
     <Card>
       <CardHeader>
@@ -59,7 +64,7 @@ export function HabitItem({ habit }: HabitItemProps) {
           {t('reminder_msg_label')}: {habit.reminderType === 'text' ? `"${habit.reminderMessage}"` : t('audio_recorded_status')}
         </p>
         <p className="text-sm text-muted-foreground">
-          {t('frequency_label')}: {habit.frequency}
+          {t('frequency_label')}: {getFrequencyText()}
         </p>
         
       </CardContent>

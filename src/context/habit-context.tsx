@@ -15,6 +15,19 @@ interface HabitContextType {
 
 const HabitContext = createContext<HabitContextType | undefined>(undefined);
 
+const getIntervalInMs = (frequency: number, timeUnit: 'minutes' | 'hours' | 'days'): number => {
+    switch (timeUnit) {
+        case 'minutes':
+            return frequency * 60 * 1000;
+        case 'hours':
+            return frequency * 60 * 60 * 1000;
+        case 'days':
+            return frequency * 24 * 60 * 60 * 1000;
+        default:
+            return frequency * 60 * 1000;
+    }
+}
+
 export const HabitProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [habits, setHabits] = useLocalStorage<Habit[]>('habits', []);
   const { notificationsEnabled, requestPermission } = useNotifications();
@@ -40,9 +53,10 @@ export const HabitProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     intervalIds.current = [];
 
     if (notificationsEnabled) {
-        requestPermission().then(granted => {
+        requestPermission(false).then(granted => {
             if(granted) {
                 habits.forEach(habit => {
+                    const intervalMs = getIntervalInMs(habit.frequency, habit.timeUnit);
                     const intervalId = setInterval(async () => {
                       if (habit.reminderType === 'text') {
                         try {
@@ -66,7 +80,7 @@ export const HabitProvider: React.FC<{ children: React.ReactNode }> = ({ childre
                         const audio = new Audio(habit.audioSrc);
                         audio.play();
                       }
-                    }, habit.frequency * 60 * 1000);
+                    }, intervalMs);
                     
                     intervalIds.current.push(intervalId);
                 });

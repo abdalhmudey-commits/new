@@ -14,12 +14,15 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Textarea } from '@/components/ui/textarea';
 import { Mic, Square, Trash2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import type { TimeUnit } from '@/lib/types';
 
 const formSchema = z.object({
   name: z.string().min(1, 'Habit name is required'),
   description: z.string(),
   reminderMessage: z.string(),
-  frequency: z.coerce.number().min(1, 'Frequency must be at least 1 minute'),
+  frequency: z.coerce.number().min(1, 'Frequency must be at least 1'),
+  timeUnit: z.enum(['minutes', 'hours', 'days']),
   reminderType: z.enum(['text', 'audio']),
 });
 
@@ -45,6 +48,7 @@ export function AddHabitForm() {
       description: '',
       reminderMessage: '',
       frequency: 15,
+      timeUnit: 'minutes',
       reminderType: 'text',
     },
   });
@@ -159,8 +163,26 @@ export function AddHabitForm() {
 
 
           <div className="space-y-2">
-            <Label htmlFor="frequency">{t('frequency_label')}</Label>
-            <Input id="frequency" type="number" {...register('frequency')} />
+            <Label>{t('frequency_label')}</Label>
+            <div className="flex gap-2">
+                <Input id="frequency" type="number" {...register('frequency')} className="w-1/2" />
+                <Controller
+                  control={control}
+                  name="timeUnit"
+                  render={({ field }) => (
+                    <Select onValueChange={field.onChange} defaultValue={field.value}>
+                        <SelectTrigger className="w-1/2">
+                            <SelectValue placeholder="Select unit" />
+                        </SelectTrigger>
+                        <SelectContent>
+                            <SelectItem value="minutes">{t('time_unit_minutes')}</SelectItem>
+                            <SelectItem value="hours">{t('time_unit_hours')}</SelectItem>
+                            <SelectItem value="days">{t('time_unit_days')}</SelectItem>
+                        </SelectContent>
+                    </Select>
+                  )}
+                />
+            </div>
             {errors.frequency && <p className="text-sm font-medium text-destructive">{errors.frequency.message}</p>}
           </div>
 

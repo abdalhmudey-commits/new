@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useCallback } from 'react';
+import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import { useLocalStorage } from '@/hooks/use-local-storage';
 import { useToast } from '@/hooks/use-toast';
 
@@ -15,20 +15,26 @@ const NotificationsContext = createContext<NotificationsContextType | undefined>
 export const NotificationsProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isEnabled, setIsEnabled] = useLocalStorage('notificationsEnabled', false);
   const { toast } = useToast();
+  const [permissionRequested, setPermissionRequested] = useState(false);
 
-  const requestPermission = useCallback(async (): Promise<boolean> => {
+  const requestPermission = useCallback(async (showAlerts = true): Promise<boolean> => {
     if (!('Notification' in window)) {
-      toast({ title: 'Notifications not supported', description: 'This browser does not support desktop notification.', variant: 'destructive' });
+      if (showAlerts) {
+        toast({ title: 'Notifications not supported', description: 'This browser does not support desktop notification.', variant: 'destructive' });
+      }
       setIsEnabled(false);
       return false;
     }
 
     if (Notification.permission === 'granted') {
+      setIsEnabled(true);
       return true;
     }
 
     if (Notification.permission === 'denied') {
-      toast({ title: 'Notification permission denied', description: 'Please enable notifications in your browser settings.', variant: 'destructive' });
+      if (showAlerts) {
+        toast({ title: 'Notification permission denied', description: 'Please enable notifications in your browser settings.', variant: 'destructive' });
+      }
       setIsEnabled(false);
       return false;
     }
@@ -36,20 +42,32 @@ export const NotificationsProvider: React.FC<{ children: React.ReactNode }> = ({
     const permission = await Notification.requestPermission();
     if (permission === 'granted') {
       setIsEnabled(true);
+      if (showAlerts) {
+        toast({ title: 'Notifications Enabled', description: 'You will now receive reminders.' });
+      }
       return true;
     } else {
       setIsEnabled(false);
+      if (showAlerts) {
+        toast({ title: 'Notifications Disabled', description: 'Permission was not granted.' });
+      }
       return false;
     }
   }, [setIsEnabled, toast]);
 
+  useEffect(() => {
+    if (!permissionRequested && !isEnabled && Notification.permission !== 'denied') {
+      requestPermission(false).then(granted => {
+        setIsEnabled(granted);
+      });
+      setPermissionRequested(true);
+    }
+  }, [permissionRequested, isEnabled, requestPermission, setIsEnabled]);
+
+
   const toggleNotifications = useCallback(async () => {
     if (!isEnabled) {
-      const permissionGranted = await requestPermission();
-      if (permissionGranted) {
-        setIsEnabled(true);
-        toast({ title: 'Notifications Enabled', description: 'You will now receive reminders.' });
-      }
+      await requestPermission(true);
     } else {
       setIsEnabled(false);
       toast({ title: 'Notifications Disabled', description: 'You will no longer receive reminders.' });
