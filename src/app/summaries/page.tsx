@@ -20,8 +20,15 @@ export default function SummariesPage() {
   const { language, t } = useLanguage();
   const [summaries, setSummaries] = useState<Summary[]>([]);
   const [loading, setLoading] = useState(true);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  useEffect(() => {
+    if (!isClient) return;
+
     const fetchSummaries = async () => {
       setLoading(true);
       try {
@@ -43,7 +50,18 @@ export default function SummariesPage() {
     };
 
     fetchSummaries();
-  }, [language.code]);
+  }, [language.code, isClient]);
+
+  if (!isClient) {
+     return (
+       <div className="container mx-auto max-w-3xl px-4 py-8">
+        <Skeleton className="h-10 w-48 mx-auto mb-6" />
+        <div className="space-y-4">
+          {Array.from({ length: 3 }).map((_, i) => <Skeleton key={i} className="h-12 w-full" />)}
+        </div>
+      </div>
+     )
+  }
 
   return (
     <div className="container mx-auto max-w-3xl px-4 py-8">

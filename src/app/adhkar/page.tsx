@@ -21,8 +21,15 @@ export default function AdhkarPage() {
   const { language, t } = useLanguage();
   const [adhkar, setAdhkar] = useState<AdhkarData | null>(null);
   const [loading, setLoading] = useState(true);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  useEffect(() => {
+    if (!isClient) return;
+
     const fetchAdhkar = async () => {
       setLoading(true);
       try {
@@ -45,7 +52,23 @@ export default function AdhkarPage() {
     };
 
     fetchAdhkar();
-  }, [language.code]);
+  }, [language.code, isClient]);
+
+  if (!isClient) {
+    return (
+      <div className="container mx-auto max-w-3xl px-4 py-8">
+        <Skeleton className="h-10 w-48 mx-auto mb-6" />
+        <Skeleton className="h-12 w-full mb-4" />
+        <Card>
+            <CardContent className="p-0">
+                <div className="p-6 space-y-4">
+                  {Array.from({ length: 5 }).map((_, i) => <Skeleton key={i} className="h-20 w-full" />)}
+                </div>
+            </CardContent>
+          </Card>
+      </div>
+    );
+  }
 
   return (
     <div className="container mx-auto max-w-3xl px-4 py-8">

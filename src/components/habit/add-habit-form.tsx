@@ -15,7 +15,6 @@ import { Textarea } from '@/components/ui/textarea';
 import { Mic, Square, Trash2 } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import type { TimeUnit } from '@/lib/types';
 
 const formSchema = z.object({
   name: z.string().min(1, 'Habit name is required'),
@@ -33,6 +32,11 @@ export function AddHabitForm() {
   const { t } = useLanguage();
   const { startRecording, stopRecording, resetRecording, recordingState, audioURL } = useRecorder();
   const [audioDataUrl, setAudioDataUrl] = useState<string | undefined>(undefined);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const {
     register,
@@ -47,7 +51,7 @@ export function AddHabitForm() {
       name: '',
       description: '',
       reminderMessage: '',
-      frequency: 15,
+      frequency: 1,
       timeUnit: 'minutes',
       reminderType: 'text',
     },
@@ -84,6 +88,10 @@ export function AddHabitForm() {
     reset();
     resetRecording();
   };
+
+  if (!isClient) {
+    return null;
+  }
 
   return (
     <Card>

@@ -4,10 +4,20 @@ import { useHabits } from '@/context/habit-context';
 import { useLanguage } from '@/context/language-context';
 import { HabitItem } from './habit-item';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
+import { useEffect, useState } from 'react';
 
 export function HabitList() {
   const { habits } = useHabits();
   const { t } = useLanguage();
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  if (!isClient) {
+    return null;
+  }
 
   if (habits.length === 0) {
     return (

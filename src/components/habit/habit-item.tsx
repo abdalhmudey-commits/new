@@ -17,6 +17,7 @@ import {
   AlertDialogTrigger,
 } from '@/components/ui/alert-dialog';
 import { Trash2, MessageSquare, Mic } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 interface HabitItemProps {
   habit: Habit;
@@ -25,8 +26,14 @@ interface HabitItemProps {
 export function HabitItem({ habit }: HabitItemProps) {
   const { deleteHabit } = useHabits();
   const { t } = useLanguage();
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const timeAgo = (date: number) => {
+    if (!isClient) return ''; 
     const seconds = Math.floor((Date.now() - date) / 1000);
     let interval = seconds / 31536000;
     if (interval > 1) return Math.floor(interval) + " years ago";
@@ -42,8 +49,13 @@ export function HabitItem({ habit }: HabitItemProps) {
   }
 
   const getFrequencyText = () => {
+    if (!isClient) return '';
     const unitKey = `time_unit_${habit.timeUnit}`;
     return `${habit.frequency} ${t(unitKey)}`;
+  }
+  
+  if (!isClient) {
+    return null;
   }
 
   return (

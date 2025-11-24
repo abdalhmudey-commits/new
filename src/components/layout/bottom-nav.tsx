@@ -5,16 +5,22 @@ import { usePathname } from 'next/navigation';
 import { Home, BookOpen, BookText } from 'lucide-react';
 import { useLanguage } from '@/context/language-context';
 import { cn } from '@/lib/utils';
+import { useEffect, useState } from 'react';
 
 export function BottomNav() {
   const pathname = usePathname();
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const navItems = [
-    { href: '/', label: t('nav_habits'), icon: Home },
-    { href: '/adhkar', label: t('nav_adhkar'), icon: BookOpen },
-    { href: '/summaries', label: t('nav_summaries'), icon: BookText },
+    { href: '/', labelKey: 'nav_habits', icon: Home },
+    { href: '/adhkar', labelKey: 'nav_adhkar', icon: BookOpen },
+    { href: '/summaries', labelKey: 'nav_summaries', icon: BookText },
   ];
 
   const getFullHref = (href: string) => {
@@ -39,7 +45,7 @@ export function BottomNav() {
             )}
           >
             <item.icon className="mb-1 h-6 w-6" />
-            <span className="text-xs">{item.label}</span>
+            <span className="text-xs">{isClient ? t(item.labelKey) : item.labelKey.split('_')[1]}</span>
           </Link>
         )})}
       </div>
