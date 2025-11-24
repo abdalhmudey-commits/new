@@ -101,7 +101,6 @@ export const translations: Translations = {
     'recording_status': 'Enregistrement...',
     'audio_recorded_status': 'Audio enregistré',
   },
-  // Add other languages tr, id, fa
   tr: {
     'app_title': 'Alışkanlık Korsanı',
     'nav_habits': 'Alışkanlıklar',
@@ -150,7 +149,7 @@ export const translations: Translations = {
     'add_habit_button': 'Tambah Kebiasaan',
     'delete_habit_button': 'Hapus',
     'delete_habit_confirm_title': 'Apakah Anda yakin?',
-    'delete_habit_confirm_desc': 'Tindakan ini не bisa dibatalkan. Ini akan menghapus kebiasaan ini secara permanen.',
+    'delete_habit_confirm_desc': 'Tindakan ini tidak bisa dibatalkan. Ini akan menghapus kebiasaan ini secara permanen.',
     'cancel': 'Batal',
     'confirm': 'Konfirmasi',
     'no_habits_message': 'Belum ada kebiasaan yang ditambahkan. Mulailah dengan menambahkan yang baru!',

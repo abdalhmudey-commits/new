@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-hook-form/package.json b/node_modules/react-hook-form/package.json
+index 548366a..e300057 100644
+--- a/node_modules/react-hook-form/package.json
++++ b/node_modules/react-hook-form/package.json
+@@ -101,6 +101,6 @@
+     "react-dom": ">=16.8.0"
+   },
+   "peerDependencies": {
+-    "react": "^16.8.0 || ^17 || ^18 || ^19"
++    "react": "^16.8.0 || ^17 || ^18 || ^19.0.0-rc-f994737d14-20240522"
+   }
+ }

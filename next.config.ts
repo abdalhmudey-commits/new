@@ -8,7 +8,6 @@ const withPWA = withPWAInit({
   dest: 'public',
   register: true,
   skipWaiting: true,
-  disable: !isProd,
   publicExcludes: ['!robots.txt', '!sitemap.xml'],
   manifest: {
     name: 'Habit Hacker',
