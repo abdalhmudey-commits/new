@@ -34,7 +34,15 @@ export const HabitProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const { language } = useLanguage();
   const intervalIds = useRef<NodeJS.Timeout[]>([]);
 
-  const addHabit = (habit: Omit<Habit, 'id' | 'createdAt'>) => {
+  const addHabit = async (habit: Omit<Habit, 'id' | 'createdAt'>) => {
+    if (!notificationsEnabled) {
+        const permissionGranted = await requestPermission();
+        if (!permissionGranted) {
+            // Optionally, handle the case where permission is denied
+            console.log("Notification permission denied. Habit added without reminders.");
+        }
+    }
+
     const newHabit: Habit = {
       ...habit,
       id: Date.now().toString(),
@@ -53,45 +61,41 @@ export const HabitProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     intervalIds.current = [];
 
     if (notificationsEnabled) {
-        requestPermission(false).then(granted => {
-            if(granted) {
-                habits.forEach(habit => {
-                    const intervalMs = getIntervalInMs(habit.frequency, habit.timeUnit);
-                    const intervalId = setInterval(async () => {
-                      if (habit.reminderType === 'text') {
-                        try {
-                          const { translatedText } = await translateHabitReminder({
-                            text: habit.reminderMessage,
-                            language: language.code,
-                          });
-                          new Notification(habit.name, {
-                            body: translatedText,
-                            icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/icons/icon-192x192.png`,
-                          });
-                        } catch (error) {
-                          console.error('Failed to translate and send notification:', error);
-                          // Fallback to original message
-                          new Notification(habit.name, {
-                            body: habit.reminderMessage,
-                            icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/icons/icon-192x192.png`,
-                          });
-                        }
-                      } else if (habit.reminderType === 'audio' && habit.audioSrc) {
-                        const audio = new Audio(habit.audioSrc);
-                        audio.play();
-                      }
-                    }, intervalMs);
-                    
-                    intervalIds.current.push(intervalId);
-                });
-            }
+        habits.forEach(habit => {
+            const intervalMs = getIntervalInMs(habit.frequency, habit.timeUnit);
+            const intervalId = setInterval(async () => {
+              if (habit.reminderType === 'text') {
+                try {
+                  const { translatedText } = await translateHabitReminder({
+                    text: habit.reminderMessage,
+                    language: language.code,
+                  });
+                  new Notification(habit.name, {
+                    body: translatedText,
+                    icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/icons/icon-192x192.png`,
+                  });
+                } catch (error) {
+                  console.error('Failed to translate and send notification:', error);
+                  // Fallback to original message
+                  new Notification(habit.name, {
+                    body: habit.reminderMessage,
+                    icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/icons/icon-192x192.png`,
+                  });
+                }
+              } else if (habit.reminderType === 'audio' && habit.audioSrc) {
+                const audio = new Audio(habit.audioSrc);
+                audio.play();
+              }
+            }, intervalMs);
+            
+            intervalIds.current.push(intervalId);
         });
     }
 
     return () => {
       intervalIds.current.forEach(clearInterval);
     };
-  }, [habits, notificationsEnabled, language.code, requestPermission]);
+  }, [habits, notificationsEnabled, language.code]);
 
   return (
     <HabitContext.Provider value={{ habits, addHabit, deleteHabit }}>

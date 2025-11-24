@@ -7,7 +7,7 @@ import { useToast } from '@/hooks/use-toast';
 interface NotificationsContextType {
   notificationsEnabled: boolean;
   toggleNotifications: () => void;
-  requestPermission: () => Promise<boolean>;
+  requestPermission: (showAlerts?: boolean) => Promise<boolean>;
 }
 
 const NotificationsContext = createContext<NotificationsContextType | undefined>(undefined);
@@ -15,7 +15,12 @@ const NotificationsContext = createContext<NotificationsContextType | undefined>
 export const NotificationsProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isEnabled, setIsEnabled] = useLocalStorage('notificationsEnabled', false);
   const { toast } = useToast();
-  const [permissionRequested, setPermissionRequested] = useState(false);
+
+  useEffect(() => {
+    if ('Notification' in window && Notification.permission === 'granted' && !isEnabled) {
+      setIsEnabled(true);
+    }
+  }, [isEnabled, setIsEnabled]);
 
   const requestPermission = useCallback(async (showAlerts = true): Promise<boolean> => {
     if (!('Notification' in window)) {
@@ -27,7 +32,7 @@ export const NotificationsProvider: React.FC<{ children: React.ReactNode }> = ({
     }
 
     if (Notification.permission === 'granted') {
-      setIsEnabled(true);
+      if (!isEnabled) setIsEnabled(true);
       return true;
     }
 
@@ -53,17 +58,7 @@ export const NotificationsProvider: React.FC<{ children: React.ReactNode }> = ({
       }
       return false;
     }
-  }, [setIsEnabled, toast]);
-
-  useEffect(() => {
-    if (!permissionRequested && !isEnabled && Notification.permission !== 'denied') {
-      requestPermission(false).then(granted => {
-        setIsEnabled(granted);
-      });
-      setPermissionRequested(true);
-    }
-  }, [permissionRequested, isEnabled, requestPermission, setIsEnabled]);
-
+  }, [setIsEnabled, toast, isEnabled]);
 
   const toggleNotifications = useCallback(async () => {
     if (!isEnabled) {
