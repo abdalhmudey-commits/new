@@ -5,7 +5,7 @@ import type { Habit } from '@/lib/types';
 import { useLocalStorage } from '@/hooks/use-local-storage';
 import { useNotifications } from './notifications-context';
 import { useLanguage } from './language-context';
-import { translateHabitReminder } from '@/ai/flows/translate-habit-reminder';
+// import { translateHabitReminder } from '@/ai/flows/translate-habit-reminder';
 
 interface HabitContextType {
   habits: Habit[];
@@ -66,12 +66,12 @@ export const HabitProvider: React.FC<{ children: React.ReactNode }> = ({ childre
             const intervalId = setInterval(async () => {
               if (habit.reminderType === 'text') {
                 try {
-                  const { translatedText } = await translateHabitReminder({
-                    text: habit.reminderMessage,
-                    language: language.code,
-                  });
+                  // const { translatedText } = await translateHabitReminder({
+                  //   text: habit.reminderMessage,
+                  //   language: language.code,
+                  // });
                   new Notification(habit.name, {
-                    body: translatedText,
+                    body: habit.reminderMessage, // Fallback to original message
                     icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/icons/icon-192x192.png`,
                   });
                 } catch (error) {
