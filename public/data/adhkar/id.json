@@ -1,10 +1,181 @@
+
 {
   "morning": [
-    { "id": "1", "text": "Kami telah mencapai pagi dan pada saat ini semua kedaulatan adalah milik Allah, dan segala puji bagi Allah. Tiada tuhan selain Allah, sendiri, tanpa sekutu. Milik-Nya segala kedaulatan dan pujian dan Dia Maha Kuasa atas segala sesuatu." },
-    { "id": "2", "text": "Ya Allah, dengan-Mu kami memasuki pagi dan dengan-Mu kami memasuki petang, dengan-Mu kami hidup dan dengan-Mu kami mati, dan kepada-Mu lah kebangkitan." }
+    {
+      "id": "m1",
+      "text": "Aku berlindung kepada Allah dari godaan syaitan yang terkutuk. (Baca Ayat Kursi - Al-Baqarah:255). Barangsiapa yang mengucapkan ini ketika pagi hari, maka ia akan dilindungi dari jin hingga petang hari, dan barangsiapa yang mengucapkannya ketika petang hari, maka ia akan dilindungi dari mereka hingga pagi hari."
+    },
+    {
+      "id": "m2",
+      "text": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. (Baca Surah Al-Ikhlas). (3 kali)"
+    },
+    {
+      "id": "m3",
+      "text": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. (Baca Surah Al-Falaq). (3 kali)"
+    },
+    {
+      "id": "m4",
+      "text": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. (Baca Surah An-Nas). (3 kali). Barangsiapa yang membacanya tiga kali di pagi dan petang hari, maka itu akan mencukupinya dari segala sesuatu."
+    },
+    {
+      "id": "m5",
+      "text": "Kami telah memasuki waktu pagi dan kerajaan hanyalah milik Allah, segala puji bagi Allah. Tidak ada Tuhan (yang berhak disembah) kecuali Allah semata, tiada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya pujian. Dia-lah Yang Mahakuasa atas segala sesuatu. Wahai Tuhanku, aku mohon kepada-Mu kebaikan di hari ini dan kebaikan sesudahnya. Aku berlindung kepada-Mu dari kejahatan hari ini dan kejahatan sesudahnya. Wahai Tuhanku, aku berlindung kepada-Mu dari kemalasan dan keburukan di hari tua. Wahai Tuhanku, aku berlindung kepada-Mu dari siksa di neraka dan siksa di dalam kubur."
+    },
+    {
+      "id": "m6",
+      "text": "Ya Allah, dengan rahmat dan pertolongan-Mu kami memasuki waktu pagi, dan dengan rahmat dan pertolongan-Mu kami memasuki waktu petang. Dengan rahmat dan pertolongan-Mu kami hidup dan dengan kehendak-Mu kami mati. Dan kepada-Mu kebangkitan (bagi semua makhluk)."
+    },
+    {
+      "id": "m7",
+      "text": "Ya Allah, Engkau adalah Tuhanku, tidak ada Tuhan selain Engkau. Engkau telah menciptakanku dan aku adalah hamba-Mu. Aku berada di atas sumpah dan janji-Mu semampuku. Aku berlindung kepada-Mu dari kejahatan apa yang telah aku perbuat. Aku mengakui nikmat-Mu atasku dan aku mengakui dosaku, maka ampunilah aku, karena tidak ada yang mengampuni dosa kecuali Engkau. Barangsiapa yang mengucapkannya dengan yakin di waktu petang lalu ia meninggal pada malam itu, maka ia akan masuk surga, dan demikian pula jika ia mengucapkannya di waktu pagi."
+    },
+    {
+      "id": "m8",
+      "text": "Ya Allah, sesungguhnya di pagi ini aku persaksikan Engkau, para pemikul ‘Arsy-Mu, para malaikat-Mu, dan seluruh makhluk-Mu, bahwa Engkau adalah Allah, tidak ada Tuhan selain Engkau semata, tidak ada sekutu bagi-Mu, dan bahwa Muhammad adalah hamba dan utusan-Mu. (4 kali)"
+    },
+    {
+      "id": "m9",
+      "text": "Ya Allah, nikmat apapun yang aku terima atau diterima oleh salah seorang dari makhluk-Mu pagi ini adalah dari-Mu semata, tidak ada sekutu bagi-Mu, maka bagi-Mu segala puji dan bagi-Mu segala syukur. Barangsiapa yang mengucapkannya di pagi hari, maka ia telah menunaikan rasa syukur di harinya, dan barangsiapa yang mengucapkannya di petang hari, maka ia telah menunaikan rasa syukur di malamnya."
+    },
+    {
+      "id": "m10",
+      "text": "Ya Allah, sehatkanlah badanku, ya Allah, sehatkanlah pendengaranku, ya Allah, sehatkanlah penglihatanku. Tidak ada Tuhan selain Engkau. Ya Allah, aku berlindung kepada-Mu dari kekafiran dan kemiskinan dan aku berlindung kepada-Mu dari siksa kubur. Tidak ada Tuhan selain Engkau. (3 kali)"
+    },
+    {
+      "id": "m11",
+      "text": "Cukuplah Allah bagiku. Tidak ada Tuhan selain Dia. Kepada-Nya aku bertawakal dan Dia adalah Tuhan ‘Arsy yang agung. (7 kali). Barangsiapa yang mengucapkannya tujuh kali di pagi dan petang hari, Allah akan mencukupinya dari segala urusan dunia dan akhirat yang menyusahkannya."
+    },
+    {
+      "id": "m12",
+      "text": "Ya Allah, aku memohon kepada-Mu ampunan dan kesehatan di dunia dan akhirat. Ya Allah, aku memohon kepada-Mu ampunan dan kesehatan dalam agamaku, urusan duniaku, keluargaku, dan hartaku. Ya Allah, tutuplah rahasiaku dan lindungilah aku dari kesusahan. Ya Allah, jagalah aku dari apa yang ada di depanku dan di belakangku, dari kiriku, dan dari kananku, dan dari atasku. Aku berlindung dengan keagungan-Mu dari serangan dari bawahku."
+    },
+    {
+      "id": "m13",
+      "text": "Ya Allah, Yang Mengetahui yang ghaib dan yang nyata, Pencipta langit dan bumi, Tuhan dan Penguasa segala sesuatu, aku bersaksi bahwa tidak ada Tuhan selain Engkau. Aku berlindung kepada-Mu dari kejahatan diriku sendiri dan dari kejahatan syaitan dan teman-temannya, dan dari membawa kejahatan pada diriku sendiri atau menyeretnya kepada seorang Muslim."
+    },
+    {
+      "id": "m14",
+      "text": "Dengan nama Allah, yang dengan nama-Nya tidak ada yang dapat membahayakan di bumi maupun di langit dan Dia Maha Mendengar lagi Maha Mengetahui. (3 kali). Tidak ada yang akan membahayakannya."
+    },
+    {
+      "id": "m15",
+      "text": "Aku ridha Allah sebagai Tuhanku, Islam sebagai agamaku, dan Muhammad (saw) sebagai Nabiku. (3 kali). Barangsiapa yang mengucapkannya tiga kali di pagi dan tiga kali di petang hari, maka itu akan menjadi janji dari Allah untuk menyenangkannya di Hari Kiamat."
+    },
+    {
+      "id": "m16",
+      "text": "Wahai Yang Maha Hidup, wahai Yang Maha Mandiri dan Maha Menopang, dengan rahmat-Mu aku memohon pertolongan, perbaikilah untukku semua urusanku dan jangan tinggalkan aku sendirian, bahkan sekejap mata pun."
+    },
+    {
+      "id": "m17",
+      "text": "Kami memasuki pagi hari di atas fitrah Islam, kalimat ikhlas, agama Nabi kami Muhammad (saw), dan iman bapak kami Ibrahim. Dia lurus (dalam menyembah Allah) dan seorang Muslim. Dia bukan termasuk orang-orang yang menyembah selain Allah."
+    },
+    {
+      "id": "m18",
+      "text": "Maha Suci Allah dan segala puji bagi-Nya. (100 kali). Barangsiapa yang mengucapkan ini seratus kali di pagi dan petang hari, tidak ada seorang pun yang akan datang pada Hari Kiamat dengan sesuatu yang lebih baik dari apa yang telah dilakukannya, kecuali seseorang yang telah mengucapkan hal yang sama atau lebih."
+    },
+    {
+      "id": "m19",
+      "text": "Tidak ada Tuhan selain Allah semata, tidak ada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya pujian dan Dia Maha Kuasa atas segala sesuatu. (100 kali). Itu akan setara dengan membebaskan sepuluh budak, dan seratus perbuatan baik akan ditulis untuknya, dan seratus perbuatan buruk akan dihapus darinya, dan itu akan menjadi perlindungan baginya dari syaitan pada hari itu hingga petang, dan tidak ada seorang pun yang akan datang dengan sesuatu yang lebih baik dari apa yang telah dilakukannya kecuali seseorang yang telah berbuat lebih dari itu."
+    },
+    {
+      "id": "m20",
+      "text": "Maha Suci Allah dan segala puji bagi-Nya, sebanyak ciptaan-Nya, sebanyak keridhaan-Nya, seberat ‘Arsy-Nya, dan seluas kalimat-kalimat-Nya. (3 kali di pagi hari)."
+    },
+    {
+      "id": "m21",
+      "text": "Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang baik, dan amalan yang diterima. (di pagi hari)."
+    },
+    {
+      "id": "m22",
+      "text": "Aku memohon ampun kepada Allah dan bertaubat kepada-Nya. (100 kali sehari)."
+    }
   ],
   "evening": [
-    { "id": "1", "text": "Kami telah mencapai petang dan pada saat ini semua kedaulatan adalah milik Allah, dan segala puji bagi Allah. Tiada tuhan selain Allah, sendiri, tanpa sekutu. Milik-Nya segala kedaulatan dan pujian dan Dia Maha Kuasa atas segala sesuatu." },
-    { "id": "2", "text": "Ya Allah, dengan-Mu kami memasuki petang dan dengan-Mu kami memasuki pagi, dengan-Mu kami hidup dan dengan-Mu kami mati, dan kepada-Mu lah kepulangan terakhir." }
+    {
+      "id": "e1",
+      "text": "Aku berlindung kepada Allah dari godaan syaitan yang terkutuk. (Baca Ayat Kursi - Al-Baqarah:255). Barangsiapa yang mengucapkannya ketika petang hari, maka ia akan dilindungi dari mereka (jin) hingga pagi hari."
+    },
+    {
+      "id": "e2",
+      "text": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. (Baca Surah Al-Ikhlas). (3 kali)"
+    },
+    {
+      "id": "e3",
+      "text": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. (Baca Surah Al-Falaq). (3 kali)"
+    },
+    {
+      "id": "e4",
+      "text": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang. (Baca Surah An-Nas). (3 kali). Barangsiapa yang membacanya tiga kali di pagi dan petang hari, maka itu akan mencukupinya dari segala sesuatu."
+    },
+    {
+      "id": "e5",
+      "text": "Kami telah memasuki waktu petang dan kerajaan hanyalah milik Allah, segala puji bagi Allah. Tidak ada Tuhan (yang berhak disembah) kecuali Allah semata, tiada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya pujian. Dia-lah Yang Mahakuasa atas segala sesuatu. Wahai Tuhanku, aku mohon kepada-Mu kebaikan di malam ini dan kebaikan sesudahnya. Aku berlindung kepada-Mu dari kejahatan malam ini dan kejahatan sesudahnya. Wahai Tuhanku, aku berlindung kepada-Mu dari kemalasan dan keburukan di hari tua. Wahai Tuhanku, aku berlindung kepada-Mu dari siksa di neraka dan siksa di dalam kubur."
+    },
+    {
+      "id": "e6",
+      "text": "Ya Allah, dengan rahmat dan pertolongan-Mu kami memasuki waktu petang dan dengan rahmat dan pertolongan-Mu kami memasuki waktu pagi. Dengan rahmat dan pertolongan-Mu kami hidup dan dengan kehendak-Mu kami mati. Dan kepada-Mu-lah tempat kembali (bagi semua makhluk)."
+    },
+    {
+      "id": "e7",
+      "text": "Ya Allah, Engkau adalah Tuhanku, tidak ada Tuhan selain Engkau. Engkau telah menciptakanku dan aku adalah hamba-Mu. Aku berada di atas sumpah dan janji-Mu semampuku. Aku berlindung kepada-Mu dari kejahatan apa yang telah aku perbuat. Aku mengakui nikmat-Mu atasku dan aku mengakui dosaku, maka ampunilah aku, karena tidak ada yang mengampuni dosa kecuali Engkau. Barangsiapa yang mengucapkannya dengan yakin di waktu petang lalu ia meninggal pada malam itu, maka ia akan masuk surga, dan demikian pula jika ia mengucapkannya di waktu pagi."
+    },
+    {
+      "id": "e8",
+      "text": "Ya Allah, sesungguhnya di petang ini aku persaksikan Engkau, para pemikul ‘Arsy-Mu, para malaikat-Mu, dan seluruh makhluk-Mu, bahwa Engkau adalah Allah, tidak ada Tuhan selain Engkau semata, tidak ada sekutu bagi-Mu, dan bahwa Muhammad adalah hamba dan utusan-Mu. (4 kali)"
+    },
+    {
+      "id": "e9",
+      "text": "Ya Allah, nikmat apapun yang aku terima atau diterima oleh salah seorang dari makhluk-Mu petang ini adalah dari-Mu semata, tidak ada sekutu bagi-Mu, maka bagi-Mu segala puji dan bagi-Mu segala syukur. Barangsiapa yang mengucapkannya di petang hari, maka ia telah menunaikan rasa syukur di malamnya."
+    },
+    {
+      "id": "e10",
+      "text": "Ya Allah, sehatkanlah badanku, ya Allah, sehatkanlah pendengaranku, ya Allah, sehatkanlah penglihatanku. Tidak ada Tuhan selain Engkau. Ya Allah, aku berlindung kepada-Mu dari kekafiran dan kemiskinan dan aku berlindung kepada-Mu dari siksa kubur. Tidak ada Tuhan selain Engkau. (3 kali)"
+    },
+    {
+      "id": "e11",
+      "text": "Cukuplah Allah bagiku. Tidak ada Tuhan selain Dia. Kepada-Nya aku bertawakal dan Dia adalah Tuhan ‘Arsy yang agung. (7 kali). Barangsiapa yang mengucapkannya tujuh kali di pagi dan petang hari, Allah akan mencukupinya dari segala urusan dunia dan akhirat yang menyusahkannya."
+    },
+    {
+      "id": "e12",
+      "text": "Ya Allah, aku memohon kepada-Mu ampunan dan kesehatan di dunia dan akhirat. Ya Allah, aku memohon kepada-Mu ampunan dan kesehatan dalam agamaku, urusan duniaku, keluargaku, dan hartaku. Ya Allah, tutuplah rahasiaku dan lindungilah aku dari kesusahan. Ya Allah, jagalah aku dari apa yang ada di depanku dan di belakangku, dari kiriku, dan dari kananku, dan dari atasku. Aku berlindung dengan keagungan-Mu dari serangan dari bawahku."
+    },
+    {
+      "id": "e13",
+      "text": "Ya Allah, Yang Mengetahui yang ghaib dan yang nyata, Pencipta langit dan bumi, Tuhan dan Penguasa segala sesuatu, aku bersaksi bahwa tidak ada Tuhan selain Engkau. Aku berlindung kepada-Mu dari kejahatan diriku sendiri dan dari kejahatan syaitan dan teman-temannya, dan dari membawa kejahatan pada diriku sendiri atau menyeretnya kepada seorang Muslim."
+    },
+    {
+      "id": "e14",
+      "text": "Dengan nama Allah, yang dengan nama-Nya tidak ada yang dapat membahayakan di bumi maupun di langit dan Dia Maha Mendengar lagi Maha Mengetahui. (3 kali). Tidak ada yang akan membahayakannya."
+    },
+    {
+      "id": "e15",
+      "text": "Aku ridha Allah sebagai Tuhanku, Islam sebagai agamaku, dan Muhammad (saw) sebagai Nabiku. (3 kali). Barangsiapa yang mengucapkannya tiga kali di pagi dan tiga kali di petang hari, maka itu akan menjadi janji dari Allah untuk menyenangkannya di Hari Kiamat."
+    },
+    {
+      "id": "e16",
+      "text": "Wahai Yang Maha Hidup, wahai Yang Maha Mandiri dan Maha Menopang, dengan rahmat-Mu aku memohon pertolongan, perbaikilah untukku semua urusanku dan jangan tinggalkan aku sendirian, bahkan sekejap mata pun."
+    },
+    {
+      "id": "e17",
+      "text": "Kami memasuki petang hari di atas fitrah Islam, kalimat ikhlas, agama Nabi kami Muhammad (saw), dan iman bapak kami Ibrahim. Dia lurus (dalam menyembah Allah) dan seorang Muslim. Dia bukan termasuk orang-orang yang menyembah selain Allah."
+    },
+    {
+      "id": "e18",
+      "text": "Maha Suci Allah dan segala puji bagi-Nya. (100 kali). Barangsiapa yang mengucapkan ini seratus kali di pagi dan petang hari, tidak ada seorang pun yang akan datang pada Hari Kiamat dengan sesuatu yang lebih baik dari apa yang telah dilakukannya, kecuali seseorang yang telah mengucapkan hal yang sama atau lebih."
+    },
+    {
+      "id": "e19",
+      "text": "Tidak ada Tuhan selain Allah semata, tidak ada sekutu bagi-Nya. Bagi-Nya kerajaan dan bagi-Nya pujian dan Dia Maha Kuasa atas segala sesuatu. (10 kali). Barangsiapa yang mengucapkan ini sepuluh kali di petang hari, Allah akan mengirimkan untuknya seorang penjaga bersenjata untuk melindunginya dari syaitan hingga ia bangun, dan Allah akan menulis untuknya sepuluh perbuatan baik yang memerlukan pahala dan menghapus darinya sepuluh perbuatan buruk yang memerlukan hukuman, dan itu akan baginya seperti membebaskan sepuluh budak yang beriman."
+    },
+    {
+      "id": "e20",
+      "text": "Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari kejahatan apa yang telah Dia ciptakan. (3 kali). Barangsiapa yang mengucapkan ini tiga kali di petang hari, sengatan malam itu tidak akan membahayakannya."
+    },
+    {
+      "id": "e21",
+      "text": "Aku memohon ampun kepada Allah dan bertaubat kepada-Nya. (100 kali sehari)."
+    }
   ]
 }
+
+    

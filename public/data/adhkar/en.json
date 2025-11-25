@@ -1,10 +1,181 @@
+
 {
   "morning": [
-    { "id": "1", "text": "We have reached the morning and at this very time all sovereignty is due to Allah, and all praise is for Allah. There is no god but Allah, alone, without partner. To Him belongs all sovereignty and praise and He is over all things omnipotent." },
-    { "id": "2", "text": "O Allah, by You we enter the morning and by You we enter the evening, by You we live and by You we die, and to You is the resurrection." }
+    {
+      "id": "m1",
+      "text": "I seek refuge in Allah from Satan the outcast. (Recite Ayat al-Kursi - Al-Baqarah:255). Whoever says this when he wakes up in the morning, he will be protected from the jinn until he retires in the evening, and whoever says it when he retires in the evening, he will be protected from them until he wakes up in the morning."
+    },
+    {
+      "id": "m2",
+      "text": "In the name of Allah, the Entirely Merciful, the Especially Merciful. (Recite Surah Al-Ikhlas). (3 times)"
+    },
+    {
+      "id": "m3",
+      "text": "In the name of Allah, the Entirely Merciful, the Especially Merciful. (Recite Surah Al-Falaq). (3 times)"
+    },
+    {
+      "id": "m4",
+      "text": "In the name of Allah, the Entirely Merciful, the Especially Merciful. (Recite Surah An-Nas). (3 times). Whoever recites these three times in the morning and in the evening, they will suffice him against everything."
+    },
+    {
+      "id": "m5",
+      "text": "We have reached the morning and at this very time all sovereignty belongs to Allah, and all praise is for Allah. There is no god but Allah, alone, without partner. To Him belongs all sovereignty and praise and He is over all things omnipotent. My Lord, I ask You for the good of this day and the good of what follows it and I take refuge in You from the evil of this day and the evil of what follows it. My Lord, I take refuge in You from laziness and senility. My Lord, I take refuge in You from torment in the Fire and punishment in the grave."
+    },
+    {
+      "id": "m6",
+      "text": "O Allah, by You we have reached the morning and by You we have reached the evening, by You we live and by You we die, and to You is the resurrection."
+    },
+    {
+      "id": "m7",
+      "text": "O Allah, You are my Lord, there is no god but You. You have created me and I am Your servant and I am on Your covenant and Your promise as much as I am able. I take refuge in You from the evil of what I have done. I acknowledge Your favor upon me and I acknowledge my sin, so forgive me, for none forgives sins but You. Whoever says this with certainty in the evening and dies during that night will enter Paradise, and likewise when he says it in the morning."
+    },
+    {
+      "id": "m8",
+      "text": "O Allah, I have reached the morning and I call on You, the bearers of Your Throne, Your angels, and all of Your creation to witness that You are Allah, there is no god but You, alone, without partner, and that Muhammad is Your servant and Your Messenger. (4 times)"
+    },
+    {
+      "id": "m9",
+      "text": "O Allah, whatever blessing has come to me or to any of Your creation this morning is from You alone, without partner, so for You is all praise and unto You all thanks. Whoever says this in the morning has fulfilled the thankfulness of his day, and whoever says it in the evening has fulfilled the thankfulness of his night."
+    },
+    {
+      "id": "m10",
+      "text": "O Allah, grant my body health, O Allah, grant my hearing health, O Allah, grant my sight health. There is no god but You. O Allah, I take refuge in You from disbelief and poverty and I take refuge in You from the punishment of the grave. There is no god but You. (3 times)"
+    },
+    {
+      "id": "m11",
+      "text": "Allah is sufficient for me. There is no god but Him. In Him I have placed my trust and He is the Lord of the great Throne. (7 times). Whoever says this seven times in the morning and in the evening, Allah will suffice him in everything that concerns him in this world and the Hereafter."
+    },
+    {
+      "id": "m12",
+      "text": "O Allah, I ask You for pardon and well-being in this life and in the Hereafter. O Allah, I ask You for pardon and well-being in my religion, my worldly affairs, my family and my wealth. O Allah, conceal my secrets and preserve me from anguish. O Allah, guard me from what is in front of me and behind me, from my left, and from my right, and from above me. I take refuge in Your greatness from being struck down from beneath me."
+    },
+    {
+      "id": "m13",
+      "text": "O Allah, Knower of the unseen and the seen, Creator of the heavens and the earth, Lord and Sovereign of all things, I bear witness that there is no god but You. I take refuge in You from the evil of my own self and from the evil of Satan and his companions, and from bringing evil upon my own self or dragging it upon any Muslim."
+    },
+    {
+      "id": "m14",
+      "text": "In the name of Allah, with whose name nothing is harmed on earth nor in the heavens and He is The All-Hearing, The All-Knowing. (3 times). Nothing will harm him."
+    },
+    {
+      "id": "m15",
+      "text": "I am content with Allah as my Lord, with Islam as my religion, and with Muhammad (peace be upon him) as my Prophet. (3 times). Whoever says this three times in the morning and three times in the evening, it will be a promise from Allah to please him on the Day of Resurrection."
+    },
+    {
+      "id": "m16",
+      "text": "O Ever Living, O Self-subsisting and All-sustaining, by Your mercy I seek assistance, rectify for me all of my affairs and do not leave me to myself, even for the blink of an eye."
+    },
+    {
+      "id": "m17",
+      "text": "We have reached the morning upon the natural religion of Islam, the word of sincere devotion, the religion of our Prophet Muhammad (peace be upon him), and the faith of our father Ibrahim. He was upright (in worshipping Allah) and a Muslim. He was not of those who worship others besides Allah."
+    },
+    {
+      "id": "m18",
+      "text": "Glory is to Allah and praise is to Him. (100 times). Whoever says this one hundred times in the morning and in the evening, no one will come on the Day of Resurrection with anything better than what he has done, except someone who has said the same or more."
+    },
+    {
+      "id": "m19",
+      "text": "There is no god but Allah, alone, without partner. To Him belongs all sovereignty and praise and He is over all things omnipotent. (100 times). It will be for him the equivalent of freeing ten slaves, and a hundred good deeds will be written for him, and a hundred bad deeds will be erased from him, and it will be a protection for him from Satan on that day until evening, and no one will come with anything better than what he has done except someone who has done more than that."
+    },
+    {
+      "id": "m20",
+      "text": "Glory is to Allah and praise is to Him, by the multitude of His creation, by His Pleasure, by the weight of His Throne, and by the extent of His Words. (3 times in the morning)."
+    },
+    {
+      "id": "m21",
+      "text": "O Allah, I ask You for beneficial knowledge, goodly provision and acceptable deeds. (in the morning)."
+    },
+    {
+      "id": "m22",
+      "text": "I seek the forgiveness of Allah and repent to Him. (100 times a day)."
+    }
   ],
   "evening": [
-    { "id": "1", "text": "We have reached the evening and at this very time all sovereignty is due to Allah, and all praise is for Allah. There is no god but Allah, alone, without partner. To Him belongs all sovereignty and praise and He is over all things omnipotent." },
-    { "id": "2", "text": "O Allah, by You we enter the evening and by You we enter the morning, by You we live and by You we die, and to You is the final return." }
+    {
+      "id": "e1",
+      "text": "I seek refuge in Allah from Satan the outcast. (Recite Ayat al-Kursi - Al-Baqarah:255). Whoever says it when he retires in the evening, he will be protected from them (jinn) until he wakes up in the morning."
+    },
+    {
+      "id": "e2",
+      "text": "In the name of Allah, the Entirely Merciful, the Especially Merciful. (Recite Surah Al-Ikhlas). (3 times)"
+    },
+    {
+      "id": "e3",
+      "text": "In the name of Allah, the Entirely Merciful, the Especially Merciful. (Recite Surah Al-Falaq). (3 times)"
+    },
+    {
+      "id": "e4",
+      "text": "In the name of Allah, the Entirely Merciful, the Especially Merciful. (Recite Surah An-Nas). (3 times). Whoever recites these three times in the morning and in the evening, they will suffice him against everything."
+    },
+    {
+      "id": "e5",
+      "text": "We have reached the evening and at this very time all sovereignty belongs to Allah, and all praise is for Allah. There is no god but Allah, alone, without partner. To Him belongs all sovereignty and praise and He is over all things omnipotent. My Lord, I ask You for the good of this night and the good of what follows it and I take refuge in You from the evil of this night and the evil of what follows it. My Lord, I take refuge in You from laziness and senility. My Lord, I take refuge in You from torment in the Fire and punishment in the grave."
+    },
+    {
+      "id": "e6",
+      "text": "O Allah, by You we have reached the evening and by You we have reached the morning, by You we live and by You we die, and to You is the Final Return."
+    },
+    {
+      "id": "e7",
+      "text": "O Allah, You are my Lord, there is no god but You. You have created me and I am Your servant and I am on Your covenant and Your promise as much as I am able. I take refuge in You from the evil of what I have done. I acknowledge Your favor upon me and I acknowledge my sin, so forgive me, for none forgives sins but You. Whoever says this with certainty in the evening and dies during that night will enter Paradise, and likewise when he says it in the morning."
+    },
+    {
+      "id": "e8",
+      "text": "O Allah, I have reached the evening and I call on You, the bearers of Your Throne, Your angels, and all of Your creation to witness that You are Allah, there is no god but You, alone, without partner, and that Muhammad is Your servant and Your Messenger. (4 times)"
+    },
+    {
+      "id": "e9",
+      "text": "O Allah, whatever blessing has come to me or to any of Your creation this evening is from You alone, without partner, so for You is all praise and unto You all thanks. Whoever says this in the evening has fulfilled the thankfulness of his night."
+    },
+    {
+      "id": "e10",
+      "text": "O Allah, grant my body health, O Allah, grant my hearing health, O Allah, grant my sight health. There is no god but You. O Allah, I take refuge in You from disbelief and poverty and I take refuge in You from the punishment of the grave. There is no god but You. (3 times)"
+    },
+    {
+      "id": "e11",
+      "text": "Allah is sufficient for me. There is no god but Him. In Him I have placed my trust and He is the Lord of the great Throne. (7 times). Whoever says this seven times in the morning and in the evening, Allah will suffice him in everything that concerns him in this world and the Hereafter."
+    },
+    {
+      "id": "e12",
+      "text": "O Allah, I ask You for pardon and well-being in this life and in the Hereafter. O Allah, I ask You for pardon and well-being in my religion, my worldly affairs, my family and my wealth. O Allah, conceal my secrets and preserve me from anguish. O Allah, guard me from what is in front of me and behind me, from my left, and from my right, and from above me. I take refuge in Your greatness from being struck down from beneath me."
+    },
+    {
+      "id": "e13",
+      "text": "O Allah, Knower of the unseen and the seen, Creator of the heavens and the earth, Lord and Sovereign of all things, I bear witness that there is no god but You. I take refuge in You from the evil of my own self and from the evil of Satan and his companions, and from bringing evil upon my own self or dragging it upon any Muslim."
+    },
+    {
+      "id": "e14",
+      "text": "In the name of Allah, with whose name nothing is harmed on earth nor in the heavens and He is The All-Hearing, The All-Knowing. (3 times). Nothing will harm him."
+    },
+    {
+      "id": "e15",
+      "text": "I am content with Allah as my Lord, with Islam as my religion, and with Muhammad (peace be upon him) as my Prophet. (3 times). Whoever says this three times in the morning and three times in the evening, it will be a promise from Allah to please him on the Day of Resurrection."
+    },
+    {
+      "id": "e16",
+      "text": "O Ever Living, O Self-subsisting and All-sustaining, by Your mercy I seek assistance, rectify for me all of my affairs and do not leave me to myself, even for the blink of an eye."
+    },
+    {
+      "id": "e17",
+      "text": "We have reached the evening upon the natural religion of Islam, the word of sincere devotion, the religion of our Prophet Muhammad (peace be upon him), and the faith of our father Ibrahim. He was upright (in worshipping Allah) and a Muslim. He was not of those who worship others besides Allah."
+    },
+    {
+      "id": "e18",
+      "text": "Glory is to Allah and praise is to Him. (100 times). Whoever says this one hundred times in the morning and in the evening, no one will come on the Day of Resurrection with anything better than what he has done, except someone who has said the same or more."
+    },
+    {
+      "id": "e19",
+      "text": "There is no god but Allah, alone, without partner. To Him belongs all sovereignty and praise and He is over all things omnipotent. (10 times). Whoever says this ten times in the evening, Allah will send for him an armed guard to protect him from Satan until he wakes up, and Allah will write for him ten good deeds that necessitate reward and erase from him ten bad deeds that necessitate punishment, and it will be for him like freeing ten believing slaves."
+    },
+    {
+      "id": "e20",
+      "text": "I take refuge in the perfect words of Allah from the evil of what He has created. (3 times). Whoever says this three times in the evening, the sting of that night will not harm him."
+    },
+    {
+      "id": "e21",
+      "text": "I seek the forgiveness of Allah and repent to Him. (100 times a day)."
+    }
   ]
 }
+
+    

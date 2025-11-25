@@ -1,10 +1,181 @@
+
 {
   "morning": [
-    { "id": "1", "text": "Nous avons atteint le matin et en ce moment même, toute la souveraineté appartient à Allah, et toutes les louanges sont à Allah. Il n'y a de divinité qu'Allah, seul, sans associé. À Lui appartiennent la souveraineté et la louange et Il est omnipotent." },
-    { "id": "2", "text": "Ô Allah, par Toi nous entrons dans le matin et par Toi nous entrons dans le soir, par Toi nous vivons et par Toi nous mourons, et vers Toi est la résurrection." }
+    {
+      "id": "m1",
+      "text": "Je cherche refuge auprès d'Allah contre Satan le maudit. (Réciter Ayat al-Kursi - Al-Baqarah:255). Quiconque dit cela au matin sera protégé des djinns jusqu'au soir, et quiconque le dit au soir sera protégé d'eux jusqu'au matin."
+    },
+    {
+      "id": "m2",
+      "text": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. (Réciter la sourate Al-Ikhlas). (3 fois)"
+    },
+    {
+      "id": "m3",
+      "text": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. (Réciter la sourate Al-Falaq). (3 fois)"
+    },
+    {
+      "id": "m4",
+      "text": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. (Réciter la sourate An-Nas). (3 fois). Quiconque récite ces trois sourates trois fois le matin et le soir, elles lui suffiront contre tout."
+    },
+    {
+      "id": "m5",
+      "text": "Nous voici au matin et la royauté appartient à Allah, et la louange est à Allah. Il n'y a de divinité qu'Allah, Seul, sans associé. À Lui la royauté et la louange et Il est Omnipotent. Seigneur, je Te demande le bien de ce jour et le bien de ce qui le suit et je cherche refuge auprès de Toi contre le mal de ce jour et le mal de ce qui le suit. Seigneur, je cherche refuge auprès de Toi contre la paresse et la mauvaise vieillesse. Seigneur, je cherche refuge auprès de Toi contre le châtiment du Feu et le châtiment de la tombe."
+    },
+    {
+      "id": "m6",
+      "text": "Ô Allah, par Toi nous nous réveillons et par Toi nous nous endormons, par Toi nous vivons et par Toi nous mourons, et vers Toi est la résurrection."
+    },
+    {
+      "id": "m7",
+      "text": "Ô Allah, Tu es mon Seigneur, il n'y a de divinité que Toi. Tu m'as créé et je suis Ton serviteur et je suis sur Ton pacte et Ta promesse autant que je le peux. Je cherche refuge auprès de Toi contre le mal de ce que j'ai fait. Je reconnais Ta grâce sur moi et je reconnais mon péché, alors pardonne-moi, car personne ne pardonne les péchés sauf Toi. Quiconque dit cela avec certitude le soir et meurt durant cette nuit entrera au Paradis, et de même s'il le dit le matin."
+    },
+    {
+      "id": "m8",
+      "text": "Ô Allah, je suis au matin et je Te prends à témoin, ainsi que les porteurs de Ton Trône, Tes anges et toutes Tes créatures, que Tu es Allah, il n'y a de divinité que Toi, Seul, sans associé, et que Muhammad est Ton serviteur et Ton Messager. (4 fois)"
+    },
+    {
+      "id": "m9",
+      "text": "Ô Allah, quelle que soit la bénédiction qui m'est parvenue ou à l'une de Tes créatures ce matin, elle vient de Toi seul, sans associé. À Toi donc toute louange et à Toi tout remerciement. Quiconque dit cela le matin a accompli la gratitude de sa journée, et quiconque le dit le soir a accompli la gratitude de sa nuit."
+    },
+    {
+      "id": "m10",
+      "text": "Ô Allah, accorde la santé à mon corps, ô Allah, accorde la santé à mon ouïe, ô Allah, accorde la santé à ma vue. Il n'y a de divinité que Toi. Ô Allah, je cherche refuge auprès de Toi contre l'incrédulité et la pauvreté et je cherche refuge auprès de Toi contre le châtiment de la tombe. Il n'y a de divinité que Toi. (3 fois)"
+    },
+    {
+      "id": "m11",
+      "text": "Allah me suffit. Il n'y a de divinité que Lui. En Lui je place ma confiance et Il est le Seigneur du grand Trône. (7 fois). Quiconque dit cela sept fois le matin et le soir, Allah lui suffira pour tout ce qui le préoccupe dans ce monde et dans l'au-delà."
+    },
+    {
+      "id": "m12",
+      "text": "Ô Allah, je Te demande le pardon et le bien-être dans cette vie et dans l'au-delà. Ô Allah, je Te demande le pardon et le bien-être dans ma religion, mes affaires mondaines, ma famille et mes biens. Ô Allah, cache mes secrets et préserve-moi de l'angoisse. Ô Allah, protège-moi de ce qui est devant moi et derrière moi, de ma gauche, de ma droite et d'au-dessus de moi. Je cherche refuge dans Ta grandeur contre le fait d'être frappé par-dessous."
+    },
+    {
+      "id": "m13",
+      "text": "Ô Allah, Connaisseur de l'invisible et du visible, Créateur des cieux et de la terre, Seigneur et Souverain de toutes choses, je témoigne qu'il n'y a de divinité que Toi. Je cherche refuge auprès de Toi contre le mal de ma propre âme et contre le mal de Satan et de ses compagnons, et contre le fait de faire du mal à ma propre âme ou de l'entraîner sur un musulman."
+    },
+    {
+      "id": "m14",
+      "text": "Au nom d'Allah, avec le nom duquel rien n'est lésé sur terre ni dans les cieux et Il est l'Audient, le Sage. (3 fois). Rien ne lui nuira."
+    },
+    {
+      "id": "m15",
+      "text": "Je suis satisfait d'Allah comme Seigneur, de l'Islam comme religion et de Muhammad (paix soit sur lui) comme Prophète. (3 fois). Quiconque dit cela trois fois le matin et trois fois le soir, ce sera une promesse d'Allah de le satisfaire au Jour de la Résurrection."
+    },
+    {
+      "id": "m16",
+      "text": "Ô Vivant, ô Subsistant par Toi-même et qui soutient tout, par Ta miséricorde je demande assistance, rectifie pour moi toutes mes affaires et ne me laisse pas à moi-même, ne serait-ce qu'un clin d'œil."
+    },
+    {
+      "id": "m17",
+      "text": "Nous nous sommes réveillés sur la religion naturelle de l'Islam, la parole de la dévotion sincère, la religion de notre Prophète Muhammad (paix soit sur lui) et la foi de notre père Ibrahim. Il était droit (dans l'adoration d'Allah) et musulman. Il ne faisait pas partie de ceux qui adorent d'autres divinités qu'Allah."
+    },
+    {
+      "id": "m18",
+      "text": "Gloire à Allah et louange à Lui. (100 fois). Quiconque dit cela cent fois le matin et le soir, personne ne viendra au Jour de la Résurrection avec quelque chose de mieux que ce qu'il a fait, sauf quelqu'un qui a dit la même chose ou plus."
+    },
+    {
+      "id": "m19",
+      "text": "Il n'y a de divinité qu'Allah, Seul, sans associé. À Lui la royauté et la louange et Il est Omnipotent. (100 fois). Ce sera pour lui l'équivalent de la libération de dix esclaves, cent bonnes actions lui seront inscrites, cent mauvaises actions lui seront effacées, et ce sera une protection pour lui contre Satan ce jour-là jusqu'au soir, et personne ne viendra avec quelque chose de mieux que ce qu'il a fait, sauf quelqu'un qui a fait plus que cela."
+    },
+    {
+      "id": "m20",
+      "text": "Gloire à Allah et louange à Lui, par la multitude de Sa création, par Son plaisir, par le poids de Son Trône et par l'étendue de Ses Paroles. (3 fois le matin)."
+    },
+    {
+      "id": "m21",
+      "text": "Ô Allah, je Te demande une connaissance bénéfique, une bonne provision et des actes acceptables. (le matin)."
+    },
+    {
+      "id": "m22",
+      "text": "Je demande pardon à Allah et je me repens à Lui. (100 fois par jour)."
+    }
   ],
   "evening": [
-    { "id": "1", "text": "Nous avons atteint le soir et en ce moment même, toute la souveraineté appartient à Allah, et toutes les louanges sont à Allah. Il n'y a de divinité qu'Allah, seul, sans associé. À Lui appartiennent la souveraineté et la louange et Il est omnipotent." },
-    { "id": "2", "text": "Ô Allah, par Toi nous entrons dans le soir et par Toi nous entrons dans le matin, par Toi nous vivons et par Toi nous mourons, et vers Toi est le retour final." }
+    {
+      "id": "e1",
+      "text": "Je cherche refuge auprès d'Allah contre Satan le maudit. (Réciter Ayat al-Kursi - Al-Baqarah:255). Quiconque le dit le soir sera protégé d'eux (des djinns) jusqu'au matin."
+    },
+    {
+      "id": "e2",
+      "text": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. (Réciter la sourate Al-Ikhlas). (3 fois)"
+    },
+    {
+      "id": "e3",
+      "text": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. (Réciter la sourate Al-Falaq). (3 fois)"
+    },
+    {
+      "id": "e4",
+      "text": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. (Réciter la sourate An-Nas). (3 fois). Quiconque récite ces trois sourates trois fois le matin et le soir, elles lui suffiront contre tout."
+    },
+    {
+      "id": "e5",
+      "text": "Nous voici au soir et la royauté appartient à Allah, et la louange est à Allah. Il n'y a de divinité qu'Allah, Seul, sans associé. À Lui la royauté et la louange et Il est Omnipotent. Seigneur, je Te demande le bien de cette nuit et le bien de ce qui la suit et je cherche refuge auprès de Toi contre le mal de cette nuit et le mal de ce qui la suit. Seigneur, je cherche refuge auprès de Toi contre la paresse et la mauvaise vieillesse. Seigneur, je cherche refuge auprès de Toi contre le châtiment du Feu et le châtiment de la tombe."
+    },
+    {
+      "id": "e6",
+      "text": "Ô Allah, par Toi nous atteignons le soir et par Toi nous atteignons le matin, par Toi nous vivons et par Toi nous mourons, et vers Toi est le Retour Final."
+    },
+    {
+      "id": "e7",
+      "text": "Ô Allah, Tu es mon Seigneur, il n'y a de divinité que Toi. Tu m'as créé et je suis Ton serviteur et je suis sur Ton pacte et Ta promesse autant que je le peux. Je cherche refuge auprès de Toi contre le mal de ce que j'ai fait. Je reconnais Ta grâce sur moi et je reconnais mon péché, alors pardonne-moi, car personne ne pardonne les péchés sauf Toi. Quiconque dit cela avec certitude le soir et meurt durant cette nuit entrera au Paradis, et de même s'il le dit le matin."
+    },
+    {
+      "id": "e8",
+      "text": "Ô Allah, je suis au soir et je Te prends à témoin, ainsi que les porteurs de Ton Trône, Tes anges et toutes Tes créatures, que Tu es Allah, il n'y a de divinité que Toi, Seul, sans associé, et que Muhammad est Ton serviteur et Ton Messager. (4 fois)"
+    },
+    {
+      "id": "e9",
+      "text": "Ô Allah, quelle que soit la bénédiction qui m'est parvenue ou à l'une de Tes créatures ce soir, elle vient de Toi seul, sans associé. À Toi donc toute louange et à Toi tout remerciement. Quiconque dit cela le soir a accompli la gratitude de sa nuit."
+    },
+    {
+      "id": "e10",
+      "text": "Ô Allah, accorde la santé à mon corps, ô Allah, accorde la santé à mon ouïe, ô Allah, accorde la santé à ma vue. Il n'y a de divinité que Toi. Ô Allah, je cherche refuge auprès de Toi contre l'incrédulité et la pauvreté et je cherche refuge auprès de Toi contre le châtiment de la tombe. Il n'y a de divinité que Toi. (3 fois)"
+    },
+    {
+      "id": "e11",
+      "text": "Allah me suffit. Il n'y a de divinité que Lui. En Lui je place ma confiance et Il est le Seigneur du grand Trône. (7 fois). Quiconque dit cela sept fois le matin et le soir, Allah lui suffira pour tout ce qui le préoccupe dans ce monde et dans l'au-delà."
+    },
+    {
+      "id": "e12",
+      "text": "Ô Allah, je Te demande le pardon et le bien-être dans cette vie et dans l'au-delà. Ô Allah, je Te demande le pardon et le bien-être dans ma religion, mes affaires mondaines, ma famille et mes biens. Ô Allah, cache mes secrets et préserve-moi de l'angoisse. Ô Allah, protège-moi de ce qui est devant moi et derrière moi, de ma gauche, de ma droite et d'au-dessus de moi. Je cherche refuge dans Ta grandeur contre le fait d'être frappé par-dessous."
+    },
+    {
+      "id": "e13",
+      "text": "Ô Allah, Connaisseur de l'invisible et du visible, Créateur des cieux et de la terre, Seigneur et Souverain de toutes choses, je témoigne qu'il n'y a de divinité que Toi. Je cherche refuge auprès de Toi contre le mal de ma propre âme et contre le mal de Satan et de ses compagnons, et contre le fait de faire du mal à ma propre âme ou de l'entraîner sur un musulman."
+    },
+    {
+      "id": "e14",
+      "text": "Au nom d'Allah, avec le nom duquel rien n'est lésé sur terre ni dans les cieux et Il est l'Audient, le Sage. (3 fois). Rien ne lui nuira."
+    },
+    {
+      "id": "e15",
+      "text": "Je suis satisfait d'Allah comme Seigneur, de l'Islam comme religion et de Muhammad (paix soit sur lui) comme Prophète. (3 fois). Quiconque dit cela trois fois le matin et trois fois le soir, ce sera une promesse d'Allah de le satisfaire au Jour de la Résurrection."
+    },
+    {
+      "id": "e16",
+      "text": "Ô Vivant, ô Subsistant par Toi-même et qui soutient tout, par Ta miséricorde je demande assistance, rectifie pour moi toutes mes affaires et ne me laisse pas à moi-même, ne serait-ce qu'un clin d'œil."
+    },
+    {
+      "id": "e17",
+      "text": "Nous sommes arrivés au soir sur la religion naturelle de l'Islam, la parole de la dévotion sincère, la religion de notre Prophète Muhammad (paix soit sur lui) et la foi de notre père Ibrahim. Il était droit (dans l'adoration d'Allah) et musulman. Il ne faisait pas partie de ceux qui adorent d'autres divinités qu'Allah."
+    },
+    {
+      "id": "e18",
+      "text": "Gloire à Allah et louange à Lui. (100 fois). Quiconque dit cela cent fois le matin et le soir, personne ne viendra au Jour de la Résurrection avec quelque chose de mieux que ce qu'il a fait, sauf quelqu'un qui a dit la même chose ou plus."
+    },
+    {
+      "id": "e19",
+      "text": "Il n'y a de divinité qu'Allah, Seul, sans associé. À Lui la royauté et la louange et Il est Omnipotent. (10 fois). Quiconque dit cela dix fois le soir, Allah enverra pour lui une garde armée pour le protéger de Satan jusqu'à ce qu'il se réveille, et Allah lui inscrira dix bonnes actions qui nécessitent une récompense et effacera de lui dix mauvaises actions qui nécessitent une punition, et ce sera pour lui comme la libération de dix esclaves croyants."
+    },
+    {
+      "id": "e20",
+      "text": "Je cherche refuge dans les paroles parfaites d'Allah contre le mal de ce qu'Il a créé. (3 fois). Quiconque dit cela trois fois le soir, la piqûre de cette nuit ne lui nuira pas."
+    },
+    {
+      "id": "e21",
+      "text": "Je demande pardon à Allah et je me repens à Lui. (100 fois par jour)."
+    }
   ]
 }
+
+    

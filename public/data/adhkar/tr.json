@@ -1,10 +1,181 @@
+
 {
   "morning": [
-    { "id": "1", "text": "Sabaha ulaştık ve bu anda bütün mülk Allah'ındır, hamd Allah'adır. Allah'tan başka ilah yoktur, O tektir, ortağı yoktur. Mülk ve hamd O'nundur ve O her şeye kadirdir." },
-    { "id": "2", "text": "Allah'ım, Seninle sabaha girdik, Seninle akşama girdik, Seninle yaşarız, Seninle ölürüz ve dönüş Sanadır." }
+    {
+      "id": "m1",
+      "text": "Kovulmuş şeytandan Allah'a sığınırım. (Ayet-el Kürsi - Bakara:255'i okuyun). Kim bunu sabah uyanınca söylerse, akşama kadar cinlerden korunur ve kim akşam yatarken söylerse, sabaha kadar onlardan korunur."
+    },
+    {
+      "id": "m2",
+      "text": "Rahman ve Rahim olan Allah'ın adıyla. (İhlas Suresi'ni okuyun). (3 defa)"
+    },
+    {
+      "id": "m3",
+      "text": "Rahman ve Rahim olan Allah'ın adıyla. (Felak Suresi'ni okuyun). (3 defa)"
+    },
+    {
+      "id": "m4",
+      "text": "Rahman ve Rahim olan Allah'ın adıyla. (Nas Suresi'ni okuyun). (3 defa). Kim bunları sabah ve akşam üçer defa okursa, her şeye karşı ona yeter."
+    },
+    {
+      "id": "m5",
+      "text": "Sabaha ulaştık ve bu anda tüm egemenlik Allah'a aittir ve tüm övgüler Allah'adır. Allah'tan başka ilah yoktur, tekdir, ortağı yoktur. Tüm egemenlik ve övgü O'nundur ve O her şeye kadirdir. Rabbim, Senden bu günün hayrını ve ondan sonrakinin hayrını dilerim ve bu günün şerrinden ve ondan sonrakinin şerrinden Sana sığınırım. Rabbim, tembellikten ve yaşlılıktan Sana sığınırım. Rabbim, ateş azabından ve kabir azabından Sana sığınırım."
+    },
+    {
+      "id": "m6",
+      "text": "Allah'ım, Seninle sabaha ulaştık, Seninle akşama ulaştık, Seninle yaşarız, Seninle ölürüz ve diriliş Sanadır."
+    },
+    {
+      "id": "m7",
+      "text": "Allah'ım, Sen benim Rabbimsin, Senden başka ilah yoktur. Beni Sen yarattın ve ben Senin kulunum ve gücüm yettiğince Senin ahdin ve vaadin üzerindeyim. Yaptıklarımın şerrinden Sana sığınırım. Üzerimdeki nimetini ve günahımı itiraf ederim, beni bağışla, çünkü günahları Senden başkası bağışlamaz. Kim bunu akşamleyin kesin bir inançla söyler ve o gece ölürse cennete girer, aynı şekilde sabah söylediğinde de."
+    },
+    {
+      "id": "m8",
+      "text": "Allah'ım, sabaha ulaştım ve Seni, Arşının taşıyıcılarını, meleklerini ve tüm yaratılmışlarını şahit tutarım ki, Sen Allah'sın, Senden başka ilah yoktur, teksin, ortağın yoktur ve Muhammed Senin kulun ve elçindir. (4 defa)"
+    },
+    {
+      "id": "m9",
+      "text": "Allah'ım, bu sabah bana veya yaratılmışlarından herhangi birine ulaşan her nimet, yalnızca Sendendir, ortağın yoktur, bu yüzden tüm övgüler Sana ve tüm şükürler Sanadır. Kim bunu sabah söylerse, gününün şükrünü yerine getirmiş olur ve kim akşam söylerse, gecesinin şükrünü yerine getirmiş olur."
+    },
+    {
+      "id": "m10",
+      "text": "Allah'ım, bedenime sağlık ver, Allah'ım, işitmeme sağlık ver, Allah'ım, görmeme sağlık ver. Senden başka ilah yoktur. Allah'ım, küfürden ve fakirlikten Sana sığınırım ve kabir azabından Sana sığınırım. Senden başka ilah yoktur. (3 defa)"
+    },
+    {
+      "id": "m11",
+      "text": "Allah bana yeter. O'ndan başka ilah yoktur. O'na güvendim ve O, büyük Arş'ın Rabbidir. (7 defa). Kim bunu sabah ve akşam yedişer defa söylerse, Allah onu bu dünyada ve ahirette ilgilendiren her şeyde ona yeter."
+    },
+    {
+      "id": "m12",
+      "text": "Allah'ım, Senden bu dünyada ve ahirette af ve esenlik dilerim. Allah'ım, Senden dinimde, dünya işlerimde, ailemde ve malımda af ve esenlik dilerim. Allah'ım, sırlarımı ört ve beni sıkıntıdan koru. Allah'ım, beni önümden ve arkamdan, solumdan ve sağımdan ve üstümden koru. Altımdan vurulmaktan Senin büyüklüğüne sığınırım."
+    },
+    {
+      "id": "m13",
+      "text": "Allah'ım, gizliyi ve açığı bilen, göklerin ve yerin Yaratıcısı, her şeyin Rabbi ve Hükümdarı, Senden başka ilah olmadığına şahitlik ederim. Kendi nefsimin şerrinden, şeytanın ve yoldaşlarının şerrinden ve kendi nefsime kötülük getirmekten veya onu herhangi bir Müslümana sürüklemekten Sana sığınırım."
+    },
+    {
+      "id": "m14",
+      "text": "Allah'ın adıyla ki, O'nun adıyla ne yeryüzünde ne de göklerde hiçbir şey zarar veremez ve O, her şeyi işiten, her şeyi bilendir. (3 defa). Hiçbir şey ona zarar vermez."
+    },
+    {
+      "id": "m15",
+      "text": "Rabbim olarak Allah'tan, dinim olarak İslam'dan ve Peygamberim olarak Muhammed'den (s.a.v.) razıyım. (3 defa). Kim bunu sabah üç defa ve akşam üç defa söylerse, kıyamet gününde onu memnun etmek Allah'ın bir vaadi olacaktır."
+    },
+    {
+      "id": "m16",
+      "text": "Ey Hayy, ey Kayyum, rahmetinle yardım dilerim, tüm işlerimi düzelt ve beni bir göz açıp kapayıncaya kadar bile kendime bırakma."
+    },
+    {
+      "id": "m17",
+      "text": "İslam'ın doğal dini, samimi bağlılık sözü, Peygamberimiz Muhammed'in (s.a.v.) dini ve babamız İbrahim'in inancı üzerine sabaha ulaştık. O, (Allah'a ibadette) dosdoğru ve bir Müslümandı. Allah'tan başkalarına ibadet edenlerden değildi."
+    },
+    {
+      "id": "m18",
+      "text": "Allah'ı tenzih ederim ve O'na hamd ederim. (100 defa). Kim bunu sabah ve akşam yüz defa söylerse, kıyamet gününde onun yaptığından daha iyi bir şeyle kimse gelmez, ancak aynı şeyi söyleyen veya daha fazlasını söyleyen biri hariç."
+    },
+    {
+      "id": "m19",
+      "text": "Allah'tan başka ilah yoktur, tekdir, ortağı yoktur. Tüm egemenlik ve övgü O'nundur ve O her şeye kadirdir. (100 defa). Bu onun için on köle azat etmeye denk olacak, yüz iyilik yazılacak, yüz kötülük silinecek ve o gün akşama kadar şeytana karşı bir koruma olacak ve onun yaptığından daha iyi bir şeyle kimse gelmeyecek, ancak ondan daha fazlasını yapan biri hariç."
+    },
+    {
+      "id": "m20",
+      "text": "Yaratıklarının çokluğuyla, rızasıyla, Arşının ağırlığıyla ve kelimelerinin sonsuzluğuyla Allah'ı tenzih ederim ve O'na hamd ederim. (Sabah 3 defa)."
+    },
+    {
+      "id": "m21",
+      "text": "Allah'ım, Senden faydalı ilim, güzel rızık ve kabul edilmiş ameller dilerim. (sabah)."
+    },
+    {
+      "id": "m22",
+      "text": "Allah'tan bağışlanma dilerim ve O'na tövbe ederim. (Günde 100 defa)."
+    }
   ],
   "evening": [
-    { "id": "1", "text": "Akşama ulaştık ve bu anda bütün mülk Allah'ındır, hamd Allah'adır. Allah'tan başka ilah yoktur, O tektir, ortağı yoktur. Mülk ve hamd O'nundur ve O her şeye kadirdir." },
-    { "id": "2", "text": "Allah'ım, Seninle akşama girdik, Seninle sabaha girdik, Seninle yaşarız, Seninle ölürüz ve son dönüş Sanadır." }
+    {
+      "id": "e1",
+      "text": "Kovulmuş şeytandan Allah'a sığınırım. (Ayet-el Kürsi - Bakara:255'i okuyun). Kim onu akşam yatarken söylerse, sabaha kadar onlardan (cinlerden) korunur."
+    },
+    {
+      "id": "e2",
+      "text": "Rahman ve Rahim olan Allah'ın adıyla. (İhlas Suresi'ni okuyun). (3 defa)"
+    },
+    {
+      "id": "e3",
+      "text": "Rahman ve Rahim olan Allah'ın adıyla. (Felak Suresi'ni okuyun). (3 defa)"
+    },
+    {
+      "id": "e4",
+      "text": "Rahman ve Rahim olan Allah'ın adıyla. (Nas Suresi'ni okuyun). (3 defa). Kim bunları sabah ve akşam üçer defa okursa, her şeye karşı ona yeter."
+    },
+    {
+      "id": "e5",
+      "text": "Akşama ulaştık ve bu anda tüm egemenlik Allah'a aittir ve tüm övgüler Allah'adır. Allah'tan başka ilah yoktur, tekdir, ortağı yoktur. Tüm egemenlik ve övgü O'nundur ve O her şeye kadirdir. Rabbim, Senden bu gecenin hayrını ve ondan sonrakinin hayrını dilerim ve bu gecenin şerrinden ve ondan sonrakinin şerrinden Sana sığınırım. Rabbim, tembellikten ve yaşlılıktan Sana sığınırım. Rabbim, ateş azabından ve kabir azabından Sana sığınırım."
+    },
+    {
+      "id": "e6",
+      "text": "Allah'ım, Seninle akşama ulaştık, Seninle sabaha ulaştık, Seninle yaşarız, Seninle ölürüz ve son dönüş Sanadır."
+    },
+    {
+      "id": "e7",
+      "text": "Allah'ım, Sen benim Rabbimsin, Senden başka ilah yoktur. Beni Sen yarattın ve ben Senin kulunum ve gücüm yettiğince Senin ahdin ve vaadin üzerindeyim. Yaptıklarımın şerrinden Sana sığınırım. Üzerimdeki nimetini ve günahımı itiraf ederim, beni bağışla, çünkü günahları Senden başkası bağışlamaz. Kim bunu akşamleyin kesin bir inançla söyler ve o gece ölürse cennete girer, aynı şekilde sabah söylediğinde de."
+    },
+    {
+      "id": "e8",
+      "text": "Allah'ım, akşama ulaştım ve Seni, Arşının taşıyıcılarını, meleklerini ve tüm yaratılmışlarını şahit tutarım ki, Sen Allah'sın, Senden başka ilah yoktur, teksin, ortağın yoktur ve Muhammed Senin kulun ve elçindir. (4 defa)"
+    },
+    {
+      "id": "e9",
+      "text": "Allah'ım, bu akşam bana veya yaratılmışlarından herhangi birine ulaşan her nimet, yalnızca Sendendir, ortağın yoktur, bu yüzden tüm övgüler Sana ve tüm şükürler Sanadır. Kim bunu akşam söylerse, gecesinin şükrünü yerine getirmiş olur."
+    },
+    {
+      "id": "e10",
+      "text": "Allah'ım, bedenime sağlık ver, Allah'ım, işitmeme sağlık ver, Allah'ım, görmeme sağlık ver. Senden başka ilah yoktur. Allah'ım, küfürden ve fakirlikten Sana sığınırım ve kabir azabından Sana sığınırım. Senden başka ilah yoktur. (3 defa)"
+    },
+    {
+      "id": "e11",
+      "text": "Allah bana yeter. O'ndan başka ilah yoktur. O'na güvendim ve O, büyük Arş'ın Rabbidir. (7 defa). Kim bunu sabah ve akşam yedişer defa söylerse, Allah onu bu dünyada ve ahirette ilgilendiren her şeyde ona yeter."
+    },
+    {
+      "id": "e12",
+      "text": "Allah'ım, Senden bu dünyada ve ahirette af ve esenlik dilerim. Allah'ım, Senden dinimde, dünya işlerimde, ailemde ve malımda af ve esenlik dilerim. Allah'ım, sırlarımı ört ve beni sıkıntıdan koru. Allah'ım, beni önümden ve arkamdan, solumdan ve sağımdan ve üstümden koru. Altımdan vurulmaktan Senin büyüklüğüne sığınırım."
+    },
+    {
+      "id": "e13",
+      "text": "Allah'ım, gizliyi ve açığı bilen, göklerin ve yerin Yaratıcısı, her şeyin Rabbi ve Hükümdarı, Senden başka ilah olmadığına şahitlik ederim. Kendi nefsimin şerrinden, şeytanın ve yoldaşlarının şerrinden ve kendi nefsime kötülük getirmekten veya onu herhangi bir Müslümana sürüklemekten Sana sığınırım."
+    },
+    {
+      "id": "e14",
+      "text": "Allah'ın adıyla ki, O'nun adıyla ne yeryüzünde ne de göklerde hiçbir şey zarar veremez ve O, her şeyi işiten, her şeyi bilendir. (3 defa). Hiçbir şey ona zarar vermez."
+    },
+    {
+      "id": "e15",
+      "text": "Rabbim olarak Allah'tan, dinim olarak İslam'dan ve Peygamberim olarak Muhammed'den (s.a.v.) razıyım. (3 defa). Kim bunu sabah üç defa ve akşam üç defa söylerse, kıyamet gününde onu memnun etmek Allah'ın bir vaadi olacaktır."
+    },
+    {
+      "id": "e16",
+      "text": "Ey Hayy, ey Kayyum, rahmetinle yardım dilerim, tüm işlerimi düzelt ve beni bir göz açıp kapayıncaya kadar bile kendime bırakma."
+    },
+    {
+      "id": "e17",
+      "text": "İslam'ın doğal dini, samimi bağlılık sözü, Peygamberimiz Muhammed'in (s.a.v.) dini ve babamız İbrahim'in inancı üzerine akşama ulaştık. O, (Allah'a ibadette) dosdoğru ve bir Müslümandı. Allah'tan başkalarına ibadet edenlerden değildi."
+    },
+    {
+      "id": "e18",
+      "text": "Allah'ı tenzih ederim ve O'na hamd ederim. (100 defa). Kim bunu sabah ve akşam yüz defa söylerse, kıyamet gününde onun yaptığından daha iyi bir şeyle kimse gelmez, ancak aynı şeyi söyleyen veya daha fazlasını söyleyen biri hariç."
+    },
+    {
+      "id": "e19",
+      "text": "Allah'tan başka ilah yoktur, tekdir, ortağı yoktur. Tüm egemenlik ve övgü O'nundur ve O her şeye kadirdir. (10 defa). Kim bunu akşam on defa söylerse, Allah ona uyanana kadar onu şeytandan korumak için silahlı bir muhafız gönderir ve Allah ona ödül gerektiren on iyilik yazar ve ceza gerektiren on kötülüğü siler ve bu onun için on inanan köle azat etmek gibi olur."
+    },
+    {
+      "id": "e20",
+      "text": "Allah'ın mükemmel kelimelerine sığınırım, yarattıklarının şerrinden. (3 defa). Kim bunu akşam üç defa söylerse, o gecenin sokması ona zarar vermez."
+    },
+    {
+      "id": "e21",
+      "text": "Allah'tan bağışlanma dilerim ve O'na tövbe ederim. (Günde 100 defa)."
+    }
   ]
 }
+
+    
